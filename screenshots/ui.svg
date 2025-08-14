@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680">
+  <rect width="1200" height="680" fill="#0b1220"/>
+  <text x="40" y="60" font-size="36" fill="#e6eefc" font-family="Arial">Log Ingestion — Query UI</text>
+  <rect x="40" y="90" width="1120" height="110" fill="#121a2b" stroke="#2b3550"/>
+  <text x="60" y="150" font-size="16" fill="#a9b7d0" font-family="Arial">Filters + Export CSV + Count</text>
+  <rect x="40" y="220" width="1120" height="420" fill="#121a2b" stroke="#2b3550"/>
+  <text x="60" y="260" font-size="16" fill="#e6eefc" font-family="Arial">Logs list (color bars)</text>
+</svg>

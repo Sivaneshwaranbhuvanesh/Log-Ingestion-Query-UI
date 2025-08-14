@@ -1,0 +1,197 @@
+[
+  {
+    "level": "error",
+    "message": "Deployment done",
+    "resourceId": "worker-1",
+    "timestamp": "2025-08-14T05:22:41.334552Z",
+    "traceId": "trace-100",
+    "spanId": "span-200",
+    "commit": "deadbeef",
+    "metadata": {
+      "host": "10.0.0.20",
+      "attempt": 0
+    }
+  },
+  {
+    "level": "warn",
+    "message": "User auth failed",
+    "resourceId": "proxy-edge",
+    "timestamp": "2025-08-14T04:52:41.334552Z",
+    "traceId": "trace-101",
+    "spanId": "span-201",
+    "commit": "1a2b3c4",
+    "metadata": {
+      "host": "10.0.0.21",
+      "attempt": 1
+    }
+  },
+  {
+    "level": "error",
+    "message": "User auth failed",
+    "resourceId": "server-web",
+    "timestamp": "2025-08-14T04:22:41.334552Z",
+    "traceId": "trace-102",
+    "spanId": "span-202",
+    "commit": "e4f5g6h",
+    "metadata": {
+      "host": "10.0.0.22",
+      "attempt": 2
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Feature flag toggled",
+    "resourceId": "worker-1",
+    "timestamp": "2025-08-14T03:52:41.334552Z",
+    "traceId": "trace-103",
+    "spanId": "span-203",
+    "commit": "deadbeef",
+    "metadata": {
+      "host": "10.0.0.23",
+      "attempt": 0
+    }
+  },
+  {
+    "level": "error",
+    "message": "User auth failed",
+    "resourceId": "db-main",
+    "timestamp": "2025-08-14T03:22:41.334552Z",
+    "traceId": "trace-104",
+    "spanId": "span-204",
+    "commit": "e4f5g6h",
+    "metadata": {
+      "host": "10.0.0.24",
+      "attempt": 1
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Service started OK",
+    "resourceId": "proxy-edge",
+    "timestamp": "2025-08-14T02:52:41.334552Z",
+    "traceId": "trace-105",
+    "spanId": "span-205",
+    "commit": "deadbeef",
+    "metadata": {
+      "host": "10.0.0.25",
+      "attempt": 2
+    }
+  },
+  {
+    "level": "info",
+    "message": "Retry in 5s",
+    "resourceId": "server-web",
+    "timestamp": "2025-08-14T02:22:41.334552Z",
+    "traceId": "trace-106",
+    "spanId": "span-206",
+    "commit": "e4f5g6h",
+    "metadata": {
+      "host": "10.0.0.26",
+      "attempt": 0
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache miss",
+    "resourceId": "worker-1",
+    "timestamp": "2025-08-14T01:52:41.334552Z",
+    "traceId": "trace-107",
+    "spanId": "span-207",
+    "commit": "c0ffee",
+    "metadata": {
+      "host": "10.0.0.27",
+      "attempt": 1
+    }
+  },
+  {
+    "level": "error",
+    "message": "Feature flag toggled",
+    "resourceId": "worker-1",
+    "timestamp": "2025-08-14T01:22:41.334552Z",
+    "traceId": "trace-108",
+    "spanId": "span-208",
+    "commit": "deadbeef",
+    "metadata": {
+      "host": "10.0.0.28",
+      "attempt": 2
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Feature flag toggled",
+    "resourceId": "proxy-edge",
+    "timestamp": "2025-08-14T00:52:41.334552Z",
+    "traceId": "trace-109",
+    "spanId": "span-209",
+    "commit": "a1b2c3d",
+    "metadata": {
+      "host": "10.0.0.29",
+      "attempt": 0
+    }
+  },
+  {
+    "level": "info",
+    "message": "Deployment done",
+    "resourceId": "proxy-edge",
+    "timestamp": "2025-08-14T00:22:41.334552Z",
+    "traceId": "trace-110",
+    "spanId": "span-210",
+    "commit": "deadbeef",
+    "metadata": {
+      "host": "10.0.0.30",
+      "attempt": 1
+    }
+  },
+  {
+    "level": "debug",
+    "message": "High memory usage",
+    "resourceId": "server-web",
+    "timestamp": "2025-08-13T23:52:41.334552Z",
+    "traceId": "trace-111",
+    "spanId": "span-211",
+    "commit": "a1b2c3d",
+    "metadata": {
+      "host": "10.0.0.31",
+      "attempt": 2
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Retry in 5s",
+    "resourceId": "worker-1",
+    "timestamp": "2025-08-13T23:22:41.334552Z",
+    "traceId": "trace-112",
+    "spanId": "span-212",
+    "commit": "c0ffee",
+    "metadata": {
+      "host": "10.0.0.32",
+      "attempt": 0
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Service started OK",
+    "resourceId": "server-web",
+    "timestamp": "2025-08-13T22:52:41.334552Z",
+    "traceId": "trace-113",
+    "spanId": "span-213",
+    "commit": "a1b2c3d",
+    "metadata": {
+      "host": "10.0.0.33",
+      "attempt": 1
+    }
+  },
+  {
+    "level": "debug",
+    "message": "User auth failed",
+    "resourceId": "proxy-edge",
+    "timestamp": "2025-08-13T22:22:41.334552Z",
+    "traceId": "trace-114",
+    "spanId": "span-214",
+    "commit": "e4f5g6h",
+    "metadata": {
+      "host": "10.0.0.34",
+      "attempt": 2
+    }
+  }
+]
